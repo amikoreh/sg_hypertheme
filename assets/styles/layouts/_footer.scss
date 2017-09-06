@@ -1,0 +1,48 @@
+footer.footer-container {
+
+  background:$sg_hypertheme_company_name-blue;
+  padding:rem-calc(45);
+
+  .widget_nav_menu {
+   @include make-col-ready();
+   margin-bottom:rem-calc(20);
+
+   @include media-breakpoint-up(sm) {
+     @include make-col(6);
+   }
+   @include media-breakpoint-up(md) {
+     @include make-col(2);
+     @include make-col-offset(1);
+
+     &:nth-child(2n+0),
+     &:nth-child(3n+0) {
+      @include make-col-offset(2);
+     }
+   }
+
+
+  }
+
+  .menu {
+
+   list-style:none;
+   padding-left:0;
+
+   a {
+    color:$gray-light;
+   }
+
+
+  }
+
+  .copyright {
+   @include make-col-ready();
+   border-top:rem-calc(1) solid rgba($gray-light,.1);
+   color:$gray-light;
+
+   @include media-breakpoint-up(xs) {
+     @include make-col(12);
+   }
+  }
+
+}

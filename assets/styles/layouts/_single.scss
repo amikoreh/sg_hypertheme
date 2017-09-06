@@ -1,0 +1,24 @@
+.single .main {
+  @include make-col-ready();
+  @include make-col(10);
+  @include make-col-offset(1);
+
+  @include media-breakpoint-up(lg) {
+   @include make-col(8);
+   @include make-col-offset(2);
+  }
+
+  article {
+
+    img {
+     max-width:100%;
+     height:auto;
+    }
+
+  }
+}
+
+.meta {
+  color:$brand-primary;
+  font-weight:600;
+}

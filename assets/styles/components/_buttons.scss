@@ -1,0 +1,23 @@
+.btn-primary {
+
+ background:$brand-primary;
+ border:rem-calc(1) solid darken($brand-primary,3%);
+ font-weight:600;
+
+ &.btn-orange {
+  background:$enterprise-orange;
+  border:rem-calc(1) solid darken($enterprise-orange,3%);
+
+  &:hover {
+   background:darken($enterprise-orange,7%);
+  }
+ }
+}
+
+.btn {
+
+ &.btn-small {
+  font-size:rem-calc(13)
+ }
+
+}
