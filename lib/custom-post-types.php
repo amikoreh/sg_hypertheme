@@ -1,6 +1,6 @@
 <?php
 
-// Strings used throughout sg_hypertheme_dev_name.
+// Strings used throughout sg_hypertheme
 require get_template_directory().'/theme-setup.php';
 
 //FAQ custom post type

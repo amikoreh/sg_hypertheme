@@ -21,7 +21,8 @@ $sage_includes = [
   'lib/custom-image-sizes.php', // Custom Image Sizes
   'lib/custom-php-shortcode.php', // Custom PHP Theme Shortcode
   'lib/display-posts-shortcode.php', // Display Posts
-  'lib/theme-logo.php' // Custom Theme Logo for customizer
+  'lib/theme-logo.php', // Custom Theme Logo for customizer
+  'lib/custom-jquery-cdn.php' // Custom Theme Logo for customizer
 ];
 
 foreach ($sage_includes as $file) {
