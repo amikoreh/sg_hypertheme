@@ -1,0 +1,15 @@
+/* Bright colors on dark backgrounds */
+.dark {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  p,
+  ul,
+  li {
+    color: $gray-lighter;
+  }
+}

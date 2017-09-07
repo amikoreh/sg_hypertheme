@@ -1,0 +1,23 @@
+.home {
+  header.banner {
+    background-color: $blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: rem-calc(500);
+    min-width: 100%;
+
+    @include media-breakpoint-up(md) {
+      height: rem-calc(700);
+      min-height: rem-calc(700);
+      background-position: bottom center;
+    }
+  }
+}
+
+//Features
+.home-features {
+  .icon {
+    font-size: rem-calc(50);
+  }
+}
