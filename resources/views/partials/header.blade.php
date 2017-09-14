@@ -4,23 +4,16 @@
 //get_template_part('app/plugin-check');
 
 //Get the background image
-$addional_image = get_field('additional_size');
-$lazy_background_image = get_field('lazy_background_image');
-$lazy_background_image_sm = get_field('lazy_background_image_sm');
+//$addional_image = get_field('additional_size');
+//$lazy_background_image = get_field('lazy_background_image');
+//$lazy_background_image_sm = get_field('lazy_background_image_sm');
 
 ?>
 
 <!-- Beginn Header -->
-<header class="bg-responsive banner lazyload"  data-sizes="auto"
 
-<?php //Add the responsive background image only for matching templates
-  if(is_page_template(array('page-templates/frontpage.php')) && $lazy_background_image): ?>
-  data-bgset="<?php if($addional_image) { echo $lazy_background_image_sm['url']; ?> [(max-width: 768px)] |<?php } ?>
-  <?php echo $lazy_background_image['url']; ?>"
-<?php endif; ?>
-
-><!-- Close Header -->
-     <nav class="navbar navbar-toggleable-md navbar-light ">
+<header class="banner">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
       <div class="logo navbar-brand">
 
@@ -70,6 +63,7 @@ $lazy_background_image_sm = get_field('lazy_background_image_sm');
    </div>
   </div>
 
+</header>
 <?php /*
 <header class="banner">
   <div class="container">

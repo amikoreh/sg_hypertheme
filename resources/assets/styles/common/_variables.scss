@@ -41,3 +41,23 @@ $navbar-light-toggler-border: rgba($white, 0.5);
 
 // Nav Tabs
 $nav-tabs-active-link-hover-bg: $gray-lightest;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0, // 0
+  sm: 768px, // 576px
+  md: 992px, // 768px
+  lg: 1200px, // 992px
+  xl: 1400px // 1200px
+);
+
+$container-max-widths: (
+  sm: 720px, // 540px
+  md: 960px, // 720px
+  lg: 1140px, // 960px
+  xl: 1300px // 1140px
+);
