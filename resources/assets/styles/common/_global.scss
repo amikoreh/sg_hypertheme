@@ -182,4 +182,50 @@ $block_colors: 'bg-white', 'bg-black', 'bg-light', 'bg-dark', 'bg-red', 'bg-blue
       }
     }
   }
+
+  &.block-media-content {
+    .columns {
+      padding: 3rem;
+    }
+
+    .block-inner {
+      padding: 0 !important;
+    }
+
+    .col-image {
+      padding: 0;
+
+      &.columns {
+        padding: 0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &.three-grid-layout {
+    text-align: center;
+
+    .testimonial {
+      padding: 0 30px;
+    }
+
+    img {
+      width: 100px;
+    }
+
+    .hover {
+      a {
+        float: left;
+        width: 100%;
+      }
+    }
+  }
 }

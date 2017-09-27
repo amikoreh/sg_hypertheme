@@ -4,11 +4,11 @@
 * Description: Custom WordPress theme with focus on modern development workflow including webpack, namespacing, DRY template structure, and more.
 
 #### Development Requires/Configuration:
-* WordPress 4.8.1
+* WordPress 4.8.2
 * PHP >= 7.0
-* Node 6.11.2
-* npm 5.4.0
-* yarn 0.23.4
+* Node 6.11.3 / 8.6.0
+* npm 5.4.2
+* yarn 1.1.0
 * Sass 3.5.1
 * MySQL >= 5.5 
 

@@ -10,5 +10,4 @@
     {!! get_search_form(false) !!}
   @endif
 
-  {!! get_the_posts_navigation() !!}
 @endsection
